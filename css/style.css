@@ -1,0 +1,260 @@
+/*!
+ NINJA THEME
+ */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* navbar*/
+
+.navbar {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+
+.navbar-inverse {
+    background-color: #507c7c !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: orange;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    text-decoration: underline;
+    background-color: #000;
+}
+
+
+/*SECTIONS*/
+
+#home {
+    background: transparent;
+    /*padding-top: 150px;*/
+    /*padding-bottom: 50px;*/
+    /*margin-top: 50px;*/
+    /*height: 1000px;*/
+}
+
+.jumbotron {
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: hotpink;
+}
+
+
+/*target section*/
+
+#target {
+    padding-top: 150px;
+    height: 1000px;
+    color: #000;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+}
+
+#target h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#target p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* .scroll {
+    background-image: url(http://www.pngall.com/wp-content/uploads/2016/04/Running-Shoes-PNG.png);
+    background-repeat: no-repeat;
+    /*background-size:100% auto;
+    height: auto;
+    width: 100%;
+    padding: 120px;
+    text-align: right;
+    color: #1E88E5;
+} */
+
+
+/* end scream section */
+
+
+/* equipment section */
+
+#equipment {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-color: #8000ff ;
+    line-height: 2;
+    min-height: 1150px;
+    width: 100%;
+    position: relative;
+}
+
+#equipment h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#equipment p {
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.equipment-one {
+    height: 300px;
+    padding: 10px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    background-color: #ff9800;
+}
+
+.equipment-alt {
+    height: 300px;
+    padding: 10px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    background-color: #ff0000;
+}
+
+
+/* end equipment section */
+
+
+/* start statistics */
+
+#statistics {
+    padding-top: 150px;
+    height: 100%;
+    color: #000;
+    background-color: #ffffcc;
+    width: 100%;
+    position: relative;
+}
+
+.pstat {
+    padding-bottom: 75px;
+}
+
+#statistics h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+
+/* end statistics*/
+
+#team {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #000;
+    background-color: #fff;
+    line-height: 2;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#team h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#join {
+    padding-top: 75px;
+    color: #fff;
+    background-color: #507c7c;
+    width: 100%;
+    position: relative;
+}
+
+#join h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+/* gogle map style */
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info-window {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-content {
+    color: #999;
+}
+
+
+/* end goole map style */
+
+.footer {
+    background-color: #507c7c;
+    font-size: 14px;
+    text-align: right;
+    padding-bottom: 25px;
+}
+
+
+/* counter*/
+
+.timer {
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    font-size: 20px
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
